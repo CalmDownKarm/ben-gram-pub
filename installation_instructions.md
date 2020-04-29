@@ -1,8 +1,8 @@
-sudo apt-get install libhunspell-dev
-unzip code folder and navigate to benesse-grammar/fairsec-gec/out
-conda env create --name v3 --file=env_tej.yml
-download model files from gdrive link and place in this folder.
-conda activate v3
-unzip folder
-Download the model from <gdrive link> and place in ./out/models
-run python Final_demo.py
+# Installation Instructions
+
+
+1. Run `sudo apt-get install libhunspell-dev`
+2. From Google Drive Download benesse-grammar.zip and unzip it.
+3. conda env create --name v3 --file=env.yml (this is in the benesse-grammar folder)
+4. conda activate v3
+5. run python final_demo.py or from Final_demo.py import getModel, getSpellChecker and run_corrections and use as demonstrated in final_demo.py
