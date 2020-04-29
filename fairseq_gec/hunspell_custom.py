@@ -4,6 +4,7 @@
 from spellchecker import SpellChecker
 import codecs
 from hunspell import Hunspell
+import os
 
 def get_correct(word,spellchecker):
     if(spellchecker.spell(word)):
@@ -86,7 +87,7 @@ def is_annot(line):
     return False
 
 def getSpellChecker():
-    dict_path = "/media/nas_mount/Rohan/out_latest/out/data_raw/dict.src.txt"
+    dict_path = os.path.join(os.getcwd(), "out/data_raw/dict.src.txt")
     spellchecker = Hunspell('en_GB')
     known_words = ["'s","n't","'ll","'m","'re","'ve","'d","'t","'all","``","''","'"]
     for word in known_words:
