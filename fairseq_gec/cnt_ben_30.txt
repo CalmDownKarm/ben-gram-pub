@@ -1,0 +1,76 @@
+Raw correction begins
+Count: 1  -> a
+Count: 2  -> a
+Count: 3  -> a
+Count: 4  -> a
+Count: 5  -> a
+Count: 6  -> a
+Count: 7  -> a
+Count: 8 'll -> all
+Count: 9  -> a
+Count: 10 'm -> mm
+Count: 11 tjhere -> there
+Count: 12  -> a
+Count: 13  -> a
+Count: 14  -> a
+Count: 15 'm -> mm
+Count: 16  -> a
+Count: 17 e-mal -> e-mail
+Count: 18  -> a
+Count: 19  -> a
+Count: 20  -> a
+Count: 21 magazins -> magazine
+Count: 22 magazins -> magazine
+Count: 23 magazins -> magazine
+Count: 24 magazins -> magazine
+Count: 25  -> a
+Count: 26 libraly -> library
+Count: 27 shoud -> should
+Count: 28 libraly -> library
+Count: 29 libraly -> library
+Count: 30 shoud -> should
+Count: 31  -> a
+Count: 32 expencive -> expensive
+Count: 33  -> a
+Count: 34  -> a
+Count: 35 libray -> library
+Count: 36 'm -> mm
+Count: 37 libray -> library
+Count: 38  -> a
+Count: 39 comik -> comic
+Count: 40 comik -> comic
+Count: 41 comik -> comic
+Count: 42  -> a
+Count: 43 agrry -> garry
+Count: 44 agrry -> garry
+Count: 45  -> a
+Count: 46 magagine -> magazine
+Count: 47 magagine -> magazine
+Count: 48 musch -> much
+Count: 49 Magagine -> magazine
+Count: 50 magagine -> magazine
+Count: 51 magagines -> magazines
+Count: 52  -> a
+Count: 53 commic -> commit
+Count: 54 commic -> commit
+Count: 55 commic -> commit
+Count: 56  -> a
+Count: 57  -> a
+Count: 58 liblary -> library
+Count: 59 magazins -> magazine
+Count: 60 liblary -> library
+Count: 61 magazins -> magazine
+Count: 62 liblary -> library
+Count: 63  -> a
+Count: 64  -> a
+Count: 65 libray -> library
+Count: 66 Finary -> binary
+Count: 67  -> a
+Count: 68 intersting -> interesting
+Count: 69 vistit -> visit
+Count: 70 frieneds -> friends
+Count: 71  -> a
+Count: 72 foriegn -> foreign
+Count: 73 thinsgs -> things
+Count: 74  -> a
+-------------------------------------------------------
