@@ -50,7 +50,7 @@ def correct_line(line,spellchecker,raw = False):
     list_string[-1] = list_string[-1].strip()
     corrected_list = [correction(x,spellchecker) for x in list_string]
 #     if(not raw):
-    corrected_list.append("\n")
+#     corrected_list.append("\n")
     line = join_string(corrected_list)
     return line
 
