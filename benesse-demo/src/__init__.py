@@ -5,7 +5,7 @@ from werkzeug.exceptions import HTTPException, default_exceptions
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
-
+    app.logger.info('Flask app created')
     return app
 
 app = create_app()

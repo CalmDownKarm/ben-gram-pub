@@ -71,31 +71,12 @@ def make_batches(lines, args, task, max_positions):
 
 
 def getModel():
-    # parser = options.get_generation_parser(interactive=True)
-    # args = options.parse_args_and_arch(parser)
-    # import_user_module(args)
-
-    # if args.buffer_size < 1:
-    #     args.buffer_size = 1
-    # if args.max_tokens is None and args.max_sentences is None:
-    #     args.max_sentences = 1
-
-    # assert not args.sampling or args.nbest == args.beam, \
-    #     '--sampling requires --nbest to be equal to --beam'
-    # assert not args.max_sentences or args.max_sentences <= args.buffer_size, \
-    #     '--max-sentences/--batch-size cannot be larger than --buffer-size'
-    # import json
-    
-    with open('/home/midas/args.json') as f:
-        args = AttrDict(json.load(f))
 
     import os 
     path = os.path.dirname(__file__)
+    with open(os.path.join(path, 'args.json')) as f:
+        args = AttrDict(json.load(f))
     args.data = [os.path.join(path, 'out', 'data_raw')]
-#     with open('/home/midas/args.json', 'w') as f:
-#         json.dump(vars(args), f)
-# #     print(args)
-
     use_cuda = torch.cuda.is_available() and not args.cpu
 
     # Setup task, e.g., translation

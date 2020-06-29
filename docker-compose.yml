@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  backend:
+    build: ./
+    command: ["/benesse-demo/run.sh"]
+    ports:
+      - 5555:5555

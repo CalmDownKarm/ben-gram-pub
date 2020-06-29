@@ -19,10 +19,9 @@ def dashboard():
         raise BadRequest('Request param text is missing')
     sentence = re.sub('\\n|<\s?\w+>?\s?|<unw>|<unc>|<|>|\\r|\r', '', text)
     try:
-        result = {'hello world': 1}
-        correction = runInference(reqs, spellchecker, sentences=[[text]])
+        correction = runInference(reqs, spellchecker, sentences=[[sentence]])
         result = grammar_correction_json(sentence, correction)
-    except:
-        raise InternalServerError("try_catch failed")
+    except Exception as e:
+        raise InternalServerError("e")
 
     return jsonify(result)
