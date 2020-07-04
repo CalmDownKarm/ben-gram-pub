@@ -20,4 +20,4 @@ RUN conda run -n v5onv1 pip install -e src/api/model
 # RUN conda run -n v5onv1 pip install -e src/api/model
 # install fairseq
 
-# ENTRYPOINT ["/bin/bash", "/benesse-demo/run.sh"]
+ENTRYPOINT ["/bin/bash", "/benesse-demo/run.sh"]

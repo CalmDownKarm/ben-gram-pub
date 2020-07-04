@@ -22,6 +22,6 @@ def dashboard():
         correction = runInference(reqs, spellchecker, sentences=[[sentence]])
         result = grammar_correction_json(sentence, correction)
     except Exception as e:
-        raise InternalServerError("e")
+        raise InternalServerError(e)
 
     return jsonify(result)
